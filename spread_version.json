@@ -1,6 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.2",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Первый стабильный релиз Spread Bot"
+  "changelog": "Компактный UI (отступы в 2 раза меньше), масштабирование графика на мобильных устройствах, выпадающий список таймфреймов"
 }
-
