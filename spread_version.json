@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
   "changelog": "История свечей бирж Binance/Bybit на графике, независимые спред-ордера на вход/выход, расчет процента закрытия позиции в целых монетах, адаптивный ресайзер колонок, торговый Telegram, поддержка Dynamic Island на iOS и компактный заголовок"
 }
