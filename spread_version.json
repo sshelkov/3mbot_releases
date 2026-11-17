@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.12",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Строгая изоляция ордеров, сеток и позиций по торговым парам и вкладкам, сохранение тикового графика Live Stream в браузере при перезагрузке и смене вкладок/таймфреймов, 1m свечи на таймфреймах 2h (120 свечей) и 4h (240 свечей), точный расчет интервалов фандинга Gate и Binance"
+  "changelog": "Исправление интеграции фьючерсов LBank: удалена заглушка VIP gateway, реализован прямой легковесный асинхронный клиент LBankFuturesClient (aiohttp/hmac), официальный алгоритм подписи LBank (MD5 в верхнем регистре + HMAC-SHA256), чтение фьючерсного баланса USDT (usableAmt), расчет шага лота и размера контракта (volumeMultiple/volumeTick) для выставления ордеров"
 }
