@@ -1,5 +1,5 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.11",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
   "changelog": "Исправление интеграции фьючерсов LBank: удалена заглушка VIP gateway, реализован прямой легковесный асинхронный клиент LBankFuturesClient (aiohttp/hmac), официальный алгоритм подписи LBank (MD5 в верхнем регистре + HMAC-SHA256), чтение фьючерсного баланса USDT (usableAmt), расчет шага лота и размера контракта (volumeMultiple/volumeTick) для выставления ордеров"
 }
