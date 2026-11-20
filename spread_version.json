@@ -1,5 +1,5 @@
 {
-  "version": "1.0.18",
+  "version": "1.0.19",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Защита лимиток Maker-арбитража от прострелов: асимметричный deadband (мгновенный отступ без задержек), ценообразование по VWAP глубины стакана Short-биржи, фильтр минимальной ликвидности BBO (min_bbo_ratio) и фоновая автономность бэкенд-стримера"
+  "changelog": "Private WebSocket Trade API для Gate.io Spot (GateSpotExecutor) и Bybit V5 Linear (BybitLinearExecutor) с автоматическим 500-мс fallback на REST, защитой от параллельных переустановок ордеров и прогревом соединений при старте"
 }
