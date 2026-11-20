@@ -1,5 +1,5 @@
 {
-  "version": "1.0.16",
+  "version": "1.0.17",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Поддержка Gate.io Unified Account (единый счет) в GateSpotExecutor и мониторинге балансов USDT, исправление переключения режима Тест / Реальная торговля в MakerArbitrageBot без сброса в IDLE"
+  "changelog": "Исправлена ошибка 'isDry is not defined' в UI MakerArbitrageBot, корректный парсинг amount_precision=0 для целочисленных монет (Gate Spot и BingX) и безопасное завершение цикла при остатке пыли меньше минимального лота"
 }
