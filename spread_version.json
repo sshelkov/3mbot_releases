@@ -1,5 +1,5 @@
 {
-  "version": "1.0.21",
+  "version": "1.0.22",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Починка Private WS Trade для Gate Spot и Bybit Linear (spot.login аутентификация и websockets v14+ State check), логирование канала [WS/REST ms] в журнал событий бота"
+  "changelog": "Полноценное сохранение настроек MakerArbitrageBot (депозит, плечо, спреды, комиссия, BBO-фильтр, режим Live/Test) при запуске, переключении вкладок и перезагрузке страницы"
 }
