@@ -1,5 +1,5 @@
 {
-  "version": "1.0.22",
+  "version": "1.0.23",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Полноценное сохранение настроек MakerArbitrageBot (депозит, плечо, спреды, комиссия, BBO-фильтр, режим Live/Test) при запуске, переключении вкладок и перезагрузке страницы"
+  "changelog": "Сквозное отображение ордеров, открытых и закрытых позиций MakerArbitrageBot в UI и сохранение в SQLite spread.db, предохранители от дублирования ордеров и контроль баланса"
 }
