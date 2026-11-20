@@ -1,5 +1,5 @@
 {
-  "version": "1.0.15",
+  "version": "1.0.16",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Добавлены боевые исполнители фьючерсов Bybit V5 Linear (BybitLinearExecutor) и Binance USDT-M Futures (BinanceFuturesExecutor) с фабрикой create_short_futures_executor, динамическое отображение биржи Short в дашборде MakerArbitrageBot и аккуратное форматирование цен сделок без float-артефактов"
+  "changelog": "Поддержка Gate.io Unified Account (единый счет) в GateSpotExecutor и мониторинге балансов USDT, исправление переключения режима Тест / Реальная торговля в MakerArbitrageBot без сброса в IDLE"
 }
