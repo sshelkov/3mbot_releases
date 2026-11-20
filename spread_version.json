@@ -1,5 +1,5 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Добавлен высокоскоростной Maker-Taker арбитраж между Gate.io Spot и BingX Swap: автономный движок MakerArbitrageBot, исполнители GateSpotExecutor и BingXSwapExecutor, ускорение котирования (50мс), защита базисного арбитража с 15с фильтром шума, мониторинг кошелька Gate.io, синхронизация с SpikeAnalyzer, дедупликация и фильтрация логов по активной вкладке"
+  "changelog": "Добавлены боевые исполнители фьючерсов Bybit V5 Linear (BybitLinearExecutor) и Binance USDT-M Futures (BinanceFuturesExecutor) с фабрикой create_short_futures_executor, динамическое отображение биржи Short в дашборде MakerArbitrageBot и аккуратное форматирование цен сделок без float-артефактов"
 }
