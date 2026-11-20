@@ -1,5 +1,5 @@
 {
-  "version": "1.0.19",
+  "version": "1.0.20",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Private WebSocket Trade API для Gate.io Spot (GateSpotExecutor) и Bybit V5 Linear (BybitLinearExecutor) с автоматическим 500-мс fallback на REST, защитой от параллельных переустановок ордеров и прогревом соединений при старте"
+  "changelog": "Телеметрия канала исполнения ордеров (WS vs REST Fallback) с отображением задержки в UI, ускорение таймаута WS до 150 мс, сохранение настроек MakerArbitrageBot во вкладку при старте, защита от устаревания кэша статики браузера"
 }
