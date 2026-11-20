@@ -1,5 +1,5 @@
 {
-  "version": "1.0.20",
+  "version": "1.0.21",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Телеметрия канала исполнения ордеров (WS vs REST Fallback) с отображением задержки в UI, ускорение таймаута WS до 150 мс, сохранение настроек MakerArbitrageBot во вкладку при старте, защита от устаревания кэша статики браузера"
+  "changelog": "Починка Private WS Trade для Gate Spot и Bybit Linear (spot.login аутентификация и websockets v14+ State check), логирование канала [WS/REST ms] в журнал событий бота"
 }
