@@ -1,5 +1,5 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Исправлена ошибка 'isDry is not defined' в UI MakerArbitrageBot, корректный парсинг amount_precision=0 для целочисленных монет (Gate Spot и BingX) и безопасное завершение цикла при остатке пыли меньше минимального лота"
+  "changelog": "Защита лимиток Maker-арбитража от прострелов: асимметричный deadband (мгновенный отступ без задержек), ценообразование по VWAP глубины стакана Short-биржи, фильтр минимальной ликвидности BBO (min_bbo_ratio) и фоновая автономность бэкенд-стримера"
 }
