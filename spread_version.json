@@ -1,5 +1,5 @@
 {
-  "version": "1.0.25",
+  "version": "1.0.26",
   "download_url": "https://github.com/sshelkov/3mbot_releases/raw/main/releases/Spread_Linux",
-  "changelog": "Настройка таймаута WS (ws_timeout_ms, 400мс) в UI и бэкенде, детерминированная верификация ордеров по client_order_id/orderLinkId при WS таймауте, защита от кэширования index.html"
+  "changelog": "Уникальный orderLinkId в BybitLinearExecutor, перехват ошибки 110072, строгий reduceOnly=True, жесткий стоп бота при сбое хеджа, полная изоляция тиков и пунктирных линий стакана по вкладкам"
 }
